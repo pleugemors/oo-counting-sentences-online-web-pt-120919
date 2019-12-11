@@ -27,8 +27,8 @@ class String
     end
     
     arr.each do |sentence1|
-      if sentence1.include?("\!")
-        arr2 << sentence1.split("\!")
+      if sentence1.include?("/!")
+        arr2 << sentence1.split("/!")
       else
         arr2 << sentence1
       end
