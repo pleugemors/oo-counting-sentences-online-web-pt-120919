@@ -33,7 +33,7 @@ class String
         arr2 << sentence1
       end
     end
-    10.times{ puts arr2}
+  
     sum = 0 
     arr2.each do |element|
       if element.size > 0 
