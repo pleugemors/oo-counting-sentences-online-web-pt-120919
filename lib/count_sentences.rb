@@ -27,13 +27,13 @@ class String
     end
     
     arr.each do |sentence1|
-      if sentence1.include?("/!")
-        arr2 << sentence1.split("/!")
+      if sentence1.include?("!")
+        arr2 << sentence1.split("!")
       else
         arr2 << sentence1
       end
     end
-    10.times puts arr2
+    10.times{ puts arr2}
     sum = 0 
     arr2.each do |element|
       if element.size > 0 
