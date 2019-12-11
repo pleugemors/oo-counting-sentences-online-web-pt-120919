@@ -24,6 +24,7 @@ class String
     sentence.each do |ele|
       if ele.size > 1 
         sum += 1 
+      end
     end
     sum 
   end
