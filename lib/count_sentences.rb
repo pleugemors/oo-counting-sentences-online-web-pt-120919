@@ -15,6 +15,9 @@ class String
   end
 
   def count_sentences
-    
+    sentence = self.split(".")
+    sentence.each do |sentence| 
+      
+    end
   end
 end
