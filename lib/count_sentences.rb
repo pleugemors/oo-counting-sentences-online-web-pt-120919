@@ -44,4 +44,3 @@ class String
     sum
     end
   end
-end
