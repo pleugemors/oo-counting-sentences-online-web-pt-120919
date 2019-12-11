@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    sentence = self.split(".")new
+    sentence = self.split(".")
     arr = []
     arr2 = []
     sentence.each do |sentence1|
