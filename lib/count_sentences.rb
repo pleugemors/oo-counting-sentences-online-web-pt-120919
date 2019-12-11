@@ -20,7 +20,12 @@ class String
     sentence = sentence.split("?")
     sentence = sentence.join("!")
     sentence = sentence.split("!")
-    10.times{puts sentence}
+    sum = 0 
+    sentence.each do |ele|
+      if ele.size > 1 
+        sum += 1 
+    end
+    sum 
   end
   
 end
