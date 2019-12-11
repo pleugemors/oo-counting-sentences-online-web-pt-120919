@@ -22,3 +22,5 @@ class String
     sentence = sentence.split("!")
     10.times{puts sentence}
   end
+  
+end
